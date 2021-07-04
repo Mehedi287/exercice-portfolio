@@ -1,0 +1,79 @@
+body{
+    font-family: 'Lobster', cursive;
+}
+.orange{
+    color: orange;
+}
+h1{
+    font-size: 40px;
+}
+.button{
+    text-decoration: none;
+    font-weight: 800;
+    background-image: linear-gradient( red,orange);
+    border-radius: 8px;
+    padding: 10px 45px;
+    color: wheat;
+
+}
+.left-contain{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.left-contain img{
+    width: 70%;
+}
+.header{
+    display: flex;
+    margin-bottom: 100px;
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-section{
+    display: flex;
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+h2{
+    font-size: 26px;
+}
+.left-contain h2{
+    font-size: 30px;
+}
+.left-contain h3{
+   font-size: 25px; 
+}
+.exp{
+  
+    margin-top: 100px;
+    margin-bottom: 70px;
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.expreance{
+    display: flex;
+}
+.web-deve{
+    border-left: 7px solid;
+    border-image: linear-gradient(red,blue);
+    border-image-slice:1;
+    padding: 20px;
+    box-shadow: 10px 6px 25px rgb(148, 219, 219);
+    
+}
+.baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(18, 224, 97),rgb(222, 65, 253));
+    border-image-slice:1;
+    padding: 20px;
+    box-shadow: 10px 6px 25px rgb(148, 219, 219)
+    ;
+    
+}
+.footer {
+    text-align:center;
+    color: rgb(24, 43, 22);
+}
